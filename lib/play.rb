@@ -40,5 +40,6 @@ def play(board)
   moves = 0
   while moves < 10 do
     turn(board)
+    moves += 1
   end
 end
